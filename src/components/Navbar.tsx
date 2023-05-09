@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+import logoB from "../../public/assets/Hosh.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,6 +26,7 @@ const Navbar = () => {
   };
   return (
     <div
+      style={{ backgroundColor: "#f1f5f9" }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -32,16 +34,11 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="/../public/assets/Hosh.png"
-          alt="/"
-          width={125}
-          height={125}
-        />
+        <Image src={logoB} alt="/" width={125} height={125} />
 
         <div>
-          <ul className="hidden md:flex">
-            <Link href="/">
+          <ul style={{ color: "#1e293b" }} className="hidden md:flex">
+            <Link href="/#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/#about">
@@ -82,12 +79,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/Hosh.png"
-                  alt="/"
-                  width={100}
-                  height={43}
-                />
+                <Image src={logoB} alt="/" width={100} height={43} />
               </Link>
 
               <div
@@ -103,7 +95,7 @@ const Navbar = () => {
           </div>
           <div className="py-y flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="/#home">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home
                 </li>
