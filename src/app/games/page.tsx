@@ -1,5 +1,6 @@
 import GameItem from "@/components/GameItem";
-import gameIMG from "../../../public/assets/projects/gamepreview.png";
+import creatorIMG from "../../../public/assets/projects/arcane/creatorpreview.png";
+import invIMG from "../../../public/assets/projects/arcane/inventory.png";
 import React from "react";
 
 const page = () => {
@@ -12,9 +13,15 @@ const page = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <GameItem
-            title="Arcane Acres"
-            backgroundImg={gameIMG}
-            projectUrl="/arcane-acres"
+            title="Arcane Acres - Character Creator"
+            backgroundImg={creatorIMG}
+            projectUrl="/character-creator"
+            tech="GML"
+          />
+          <GameItem
+            title="Arcane Acres - Inventory System"
+            backgroundImg={invIMG}
+            projectUrl="/inventory-system"
             tech="GML"
           />
         </div>
