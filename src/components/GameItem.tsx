@@ -2,14 +2,14 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
 
-type ProjectItemProps = {
+type GameItemProps = {
   title: string;
   backgroundImg: StaticImageData;
   projectUrl: string;
   tech: string;
 };
 
-const ProjectItem = (props: ProjectItemProps) => {
+const GameItem = (props: GameItemProps) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-indigo-700 to-blue-400 text-slate-50">
       <Image
@@ -24,7 +24,7 @@ const ProjectItem = (props: ProjectItemProps) => {
         <p className="pb-4 pt-2 text-slate-100 text-center">{props.tech}</p>
         <Link href={props.projectUrl}>
           <p className="text-center py-3 rounded-lg bg-slate-100 text-slate-800 font-bold text-lg cursor-pointer">
-            More Info
+            Technical Read
           </p>
         </Link>
       </div>
@@ -32,4 +32,4 @@ const ProjectItem = (props: ProjectItemProps) => {
   );
 };
 
-export default ProjectItem;
+export default GameItem;
