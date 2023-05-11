@@ -28,7 +28,7 @@ const page = () => {
             systems and the design choices I've made so far.
           </p>
         </div>
-        <h2 className="py-10">Character Creator</h2>
+        <h2 className="pt-10 pb-4">Character Creator</h2>
         <div className="col-span-4">
           <p>
             I guess before I can explain how the character creator works, I
@@ -171,9 +171,9 @@ const page = () => {
             allow players to change hats, clothes, or facial features, it would
             be rather easy to add in! If you want to learn more about how I
             design other systems
-            <Link href="/games">
-              <p className="underline cursor-pointer">Go Here</p>
-            </Link>
+            <p className="underline cursor-pointer text-indigo-600 font-bold">
+              <Link href="/games">Go Here</Link>
+            </p>
           </p>
         </div>
       </div>
