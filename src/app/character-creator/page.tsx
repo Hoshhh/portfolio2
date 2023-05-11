@@ -34,7 +34,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20"
-            src="/assets/projects/arcane/layers.PNG"
+            src="/assets/projects/arcane/layers.png"
             alt="/"
             height={500}
             width={500}
