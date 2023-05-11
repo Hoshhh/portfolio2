@@ -1,6 +1,4 @@
 import GameItem from "@/components/GameItem";
-import creatorIMG from "../../../public/assets/projects/arcane/creatorpreview.png";
-import invIMG from "../../../public/assets/projects/arcane/inventory.png";
 import React from "react";
 
 const page = () => {

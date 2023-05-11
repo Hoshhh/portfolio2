@@ -1,5 +1,4 @@
 import React from "react";
-import devtasks from "../../../public/assets/projects/auth.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";

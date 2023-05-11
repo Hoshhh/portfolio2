@@ -1,5 +1,4 @@
 import React from "react";
-import stream from "../../../public/assets/projects/stream.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";

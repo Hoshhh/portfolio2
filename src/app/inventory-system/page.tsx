@@ -1,21 +1,4 @@
 import Image from "next/image";
-import sprite from "../../../public/assets/projects/arcane/item-sheet.png";
-import variables from "../../../public/assets/projects/arcane/var-setup.png";
-import enumerator from "../../../public/assets/projects/arcane/enum.png";
-import arrayStruct from "../../../public/assets/projects/arcane/inventory-populating.png";
-import selected from "../../../public/assets/projects/arcane/selecting-slot.png";
-import drawLoop from "../../../public/assets/projects/arcane/drawing-loop1.png";
-import mouseOver from "../../../public/assets/projects/arcane/mouseover.png";
-import mouseFree from "../../../public/assets/projects/arcane/mouse-logic-func.png";
-import mouseDrag from "../../../public/assets/projects/arcane/mouse-drag-func.png";
-import invSearch from "../../../public/assets/projects/arcane/inv-search.png";
-import invAddRemove from "../../../public/assets/projects/arcane/inv-addremove.png";
-import invStackSwap from "../../../public/assets/projects/arcane/inv-stack-swap.png";
-import invStackOther from "../../../public/assets/projects/arcane/inv-other-stack.png";
-import invMoveAll from "../../../public/assets/projects/arcane/inv-moveall.png";
-import invSort from "../../../public/assets/projects/arcane/inv-sort-add1.png";
-import invStackall from "../../../public/assets/projects/arcane/inv-stackall.png";
-import invGif from "../../../public/assets/projects/arcane/inv.gif";
 import Link from "next/link";
 
 const page = () => {

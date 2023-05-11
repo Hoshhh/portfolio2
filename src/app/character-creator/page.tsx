@@ -1,7 +1,4 @@
 import Image from "next/image";
-import layers from "../../../public/assets/projects/arcane/layers.png";
-import colors from "../../../public/assets/projects/arcane/colors.png";
-import creator from "../../../public/assets/projects/arcane/creator.gif";
 import Link from "next/link";
 
 const page = () => {

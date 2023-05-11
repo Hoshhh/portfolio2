@@ -1,10 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import devtasks from "../../public/assets/projects/auth.png";
-import halloween from "../../public/assets/projects/hallow.png";
-import renegade from "../../public/assets/projects/renegade.png";
-import stream from "../../public/assets/projects/stream.png";
-import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
