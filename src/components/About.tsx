@@ -20,6 +20,24 @@ const About = () => {
             incorporate into websites. I've come to love making websites so I
             thought I would try to turn my hobby into a career.
           </p>
+          <p className="py-2 text-slate-700">
+            My original plan was to become a physician and though I did really
+            well in that pursuit, I ultimately fell out of love with the
+            profession. I've taken a few years since college to try and find
+            what I really wanted to do in life so I started thinking about
+            things that I enjoy doing. The feeling of solving a difficult
+            problem was always something that brought me back to programming, so
+            I can't think of anything more amazing than being able to do this
+            everyday!
+          </p>
+          <p className="py-2 text-slate-700">
+            I have a large assortment of interests such as cryptocurrency,
+            building computers, history, space, stocks, and video games. I try
+            my best to be a well informed person and I love learning about new
+            technology. Knowledge is a powerful thing and I hope one day all of
+            these steps I'm taking now will help me become an innovator for the
+            future.
+          </p>
           <p className="py-2 text-slate-700 underline cursor-pointer">
             Check out my latest projects.
           </p>

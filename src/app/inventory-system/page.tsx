@@ -38,9 +38,9 @@ const page = () => {
         <div className="col-span-4">
           <p className="py-4">
             First up is how I handle the inventory icons. I made a giant sprite
-            sheet of all the icons an inventory can have so that I can the file
-            clutter limited. This requires a bit of math to get working, but
-            once it's done adding new items is very simple!
+            sheet of all the icons an inventory can have so that I can keep the
+            file clutter limited. This requires a bit of math to get working,
+            but once it's done, adding new items is very simple!
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
