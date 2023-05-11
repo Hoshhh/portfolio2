@@ -61,7 +61,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={sprite}
+            src="/assets/projects/arcane/item-sheet.png"
             alt="/"
             height={500}
             width={500}
@@ -78,7 +78,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={variables}
+            src="/assets/projects/arcane/var-setup.png"
             alt="/"
             height={500}
             width={500}
@@ -94,7 +94,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={enumerator}
+            src="/assets/projects/arcane/enum.png"
             alt="/"
             height={500}
             width={500}
@@ -107,7 +107,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={arrayStruct}
+            src="/assets/projects/arcane/inventory-populating.png"
             alt="/"
             height={500}
             width={500}
@@ -136,7 +136,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={selected}
+            src="/assets/projects/arcane/selecting-slot.png"
             alt="/"
             height={600}
             width={600}
@@ -151,7 +151,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={drawLoop}
+            src="/assets/projects/arcane/drawing-loop1.png"
             alt="/"
             height={600}
             width={600}
@@ -172,21 +172,21 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={mouseOver}
+            src="/assets/projects/arcane/mouseover.png"
             alt="/"
             height={600}
             width={600}
           />
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={mouseFree}
+            src="/assets/projects/arcane/mouse-logic-func.png"
             alt="/"
             height={700}
             width={700}
           />
           <Image
             className="rounded-xl group-hover:opacity-20 pb-6"
-            src={mouseDrag}
+            src="/assets/projects/arcane/mouse-drag-func.png"
             alt="/"
             height={700}
             width={700}
@@ -208,7 +208,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invSearch}
+            src="/assets/projects/arcane/inv-search.png"
             alt="/"
             height={700}
             width={700}
@@ -220,7 +220,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invAddRemove}
+            src="/assets/projects/arcane/inv-addremove.png"
             alt="/"
             height={700}
             width={700}
@@ -232,7 +232,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invStackSwap}
+            src="/assets/projects/arcane/inv-stack-swap.png"
             alt="/"
             height={700}
             width={700}
@@ -245,7 +245,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invStackOther}
+            src="/assets/projects/arcane/inv-other-stack.png"
             alt="/"
             height={700}
             width={700}
@@ -258,7 +258,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invMoveAll}
+            src="/assets/projects/arcane/inv-moveall.png"
             alt="/"
             height={700}
             width={700}
@@ -276,7 +276,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invSort}
+            src="/assets/projects/arcane/inv-sort-add1.png"
             alt="/"
             height={700}
             width={700}
@@ -293,7 +293,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invStackall}
+            src="/assets/projects/arcane/inv-stackall.png"
             alt="/"
             height={700}
             width={700}
@@ -308,7 +308,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20 pb-2"
-            src={invGif}
+            src="/assets/projects/arcane/inv.gif"
             alt="/"
             height={700}
             width={700}

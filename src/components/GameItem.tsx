@@ -4,7 +4,7 @@ import React from "react";
 
 type GameItemProps = {
   title: string;
-  backgroundImg: StaticImageData;
+  backgroundImg: string;
   projectUrl: string;
   tech: string;
 };
@@ -16,6 +16,8 @@ const GameItem = (props: GameItemProps) => {
         className="rounded-xl group-hover:opacity-20"
         src={props.backgroundImg}
         alt="/"
+        width={600}
+        height={600}
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl text-slate-100 tracking-wider text-center">

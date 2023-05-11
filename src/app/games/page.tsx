@@ -13,15 +13,15 @@ const page = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <GameItem
-            title="Arcane Acres - Character Creator"
-            backgroundImg={creatorIMG}
-            projectUrl="/character-creator"
+            title="Arcane Acres - Inventory System"
+            backgroundImg="/assets/projects/arcane/inventory.png"
+            projectUrl="/inventory-system"
             tech="GML"
           />
           <GameItem
-            title="Arcane Acres - Inventory System"
-            backgroundImg={invIMG}
-            projectUrl="/inventory-system"
+            title="Arcane Acres - Character Creator"
+            backgroundImg="/assets/projects/arcane/creatorpreview.png"
+            projectUrl="/character-creator"
             tech="GML"
           />
         </div>

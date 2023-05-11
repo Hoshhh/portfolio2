@@ -37,7 +37,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20"
-            src={layers}
+            src="/assets/projects/arcane/layers.png"
             alt="/"
             height={500}
             width={500}
@@ -145,7 +145,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20"
-            src={colors}
+            src="/assets/projects/arcane/colors.png"
             alt="/"
             height={500}
             width={500}
@@ -160,7 +160,7 @@ const page = () => {
           </p>
           <Image
             className="rounded-xl group-hover:opacity-20"
-            src={creator}
+            src="/assets/projects/arcane/creator.gif"
             alt="/"
             height={800}
             width={800}
