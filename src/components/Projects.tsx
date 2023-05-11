@@ -12,25 +12,25 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Devtasks"
-            backgroundImg="/assets/projects/auth.png"
+            backgroundImg="/assets/projects/auth.PNG"
             projectUrl="/devtasks"
             tech="MongoDB, Express, React, and Nodejs"
           />
           <ProjectItem
             title="Halloween Hub"
-            backgroundImg="/assets/projects/hallow.png"
+            backgroundImg="/assets/projects/hallow.PNG"
             projectUrl="/halloween-hub"
             tech="NextJs, Tailwind, and MongoDB/Mongoose"
           />
           <ProjectItem
             title="Renegade Handmade"
-            backgroundImg="/assets/projects/renegade.png"
+            backgroundImg="/assets/projects/renegade.PNG"
             projectUrl="/renegade-handmade"
             tech="React, Typescript, and MaterialUI"
           />
           <ProjectItem
             title="MultiStream"
-            backgroundImg="/assets/projects/stream.png"
+            backgroundImg="/assets/projects/stream.PNG"
             projectUrl="/multistream"
             tech="React, MaterialUI, and the Twitch API"
           />

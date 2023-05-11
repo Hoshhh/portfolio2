@@ -10,7 +10,7 @@ const page = () => {
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
           className="absolute z-1"
-          src="/assets/projects/auth.png"
+          src="/assets/projects/auth.PNG"
           alt="devtasks"
           layout="fill"
           objectFit="cover"
