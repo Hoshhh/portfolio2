@@ -53,10 +53,10 @@ const page = () => {
             Now for the variable setup. GameMaker doesn't have an easy way to do
             UI design yet, so everything UI related has to be done manually.
             It's probably the worst part about the engine, but I still enjoy
-            using it nonetheless! Basically all of the varaibles are to
+            using it nonetheless! Basically all of the variables are to
             determine where everything needs to go. From button selectors to
             icons, pretty much everything has been set to a variable. There are
-            a few variable that are for checking the selected slot of the
+            a few variables that are for checking the selected slot of the
             inventory and the position of the GUI layer.
           </p>
           <Image
