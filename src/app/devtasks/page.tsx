@@ -39,11 +39,15 @@ const page = () => {
             that I believe I can expand the app to include more functionality or
             use this stack on a bigger project.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href="https://puce-clean-tortoise.cyclic.app/login" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Hoshhh/dev-tasks" target="_blank">
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-2 shadow-xl shadow-gray-400 rounded-xl p-2">
-          <div p-2>
+          <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-800 py-2 flex items-center">

@@ -38,11 +38,15 @@ const page = () => {
             have to do is click the minus button to the right of the streams
             name located on the left most side.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href="https://twitchms.netlify.app/" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Hoshhh/twitchapp" target="_blank">
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-2 shadow-xl shadow-gray-400 rounded-xl p-2">
-          <div p-2>
+          <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-800 py-2 flex items-center">

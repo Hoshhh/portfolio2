@@ -37,11 +37,15 @@ const page = () => {
             made API endpoints "/api/videos movies, etc" and used MongoDB to
             store the information for the API.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href="https://halloweenhub.vercel.app/" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Hoshhh/Halloween-Site" target="_blank">
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-2 shadow-xl shadow-gray-400 rounded-xl p-2">
-          <div p-2>
+          <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-800 py-2 flex items-center">

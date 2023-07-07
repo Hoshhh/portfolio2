@@ -11,6 +11,12 @@ const Projects = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="FirstStepTech"
+            backgroundImg="/assets/projects/firststep.png"
+            projectUrl="/first-step"
+            tech="NextJS, NextAuth, Prisma"
+          />
+          <ProjectItem
             title="Devtasks"
             backgroundImg="/assets/projects/auth.png"
             projectUrl="/devtasks"

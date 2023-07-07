@@ -10,14 +10,14 @@ const page = () => {
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
           className="absolute z-1"
-          src="/assets/projects/renegade.png"
-          alt="renegade"
+          src="/assets/projects/firststep"
+          alt="devtasks"
           layout="fill"
           objectFit="cover"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-slate-100 z-10 p-2">
-          <h2 className="py-2">Renegade Handmade</h2>
-          <h3>React / Typescript / MaterialUI</h3>
+          <h2 className="py-2">FirstStepTech</h2>
+          <h3>NextJS / NextAuth / Prisma / Vercel / Planetscale</h3>
         </div>
       </div>
 
@@ -26,21 +26,25 @@ const page = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This project is being made with React, Typescript, Redux,
-            CommerceJS, Stripe, and MaterialUI. This is a Ecommerce website for
-            a woodworking company so that they can sell decor they make often as
-            well as take custom requests.
+            This project was made with NextJS, NextAuth, and Prisma. Hosted with Vercel and planetscale.
           </p>
           <p className="mt-4">
-            I'm making this project with scalability in mind in case the company
-            decides to expand further. With the power of Typescript and a state
-            management system like Redux, everything should be in place to make
-            this site expanable.
+            This site was a proof of concept for a SAAS idea I had. I wanted to make a platform for junior developers
+            and a tool that recruiters could use to find candidates. The goal of this project was to help alleviate some of 
+            the problems in the job market. Job listings marked "entry level" while asking for 3+ years of experience harms 
+            both job searchers and recruiters. Junior developers can't find jobs specifically looking for their level of expertise
+            so they start applying to every developer job which in turn makes the recruiters job harder as well.
           </p>
-          <Link href="https://renegadehandmade.netlify.app/" target="_blank">
+          <p className="mt-4">
+            I used this project to test if what I wanted to achieve was within my capabilities. In the end I found that it was.
+            This project set me on the right path with these technologies, but was not planned or structured properly. My plan
+            is to continue with this project, but I will be starting over and planning accordingly this time. I've learned
+            so much from this project and I am now setting my focus on making this app in my spare time.
+          </p>
+          <Link href="https://first-step-tech.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
-          <Link href="https://github.com/Hoshhh/RenegadeHandmade" target="_blank">
+          <Link href="https://github.com/Hoshhh/FirstStep" target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
           </Link>
         </div>
@@ -50,27 +54,23 @@ const page = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-800 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React
+                NextJS
               </p>
               <p className="text-slate-800 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Typescript
+                NextAuth
               </p>
               <p className="text-slate-800 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Redux
+                Prisma
               </p>
               <p className="text-slate-800 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                CommerceJS
+                Vercel
               </p>
               <p className="text-slate-800 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Stripe
-              </p>
-              <p className="text-slate-800 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                MaterialUI
+                Planetscale
               </p>
             </div>
           </div>
