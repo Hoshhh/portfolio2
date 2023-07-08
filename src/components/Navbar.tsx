@@ -127,19 +127,17 @@ const Navbar = () => {
               <p className="uppercase tracking-widest text-slate-800">
                 Let's Connect
               </p>
-              <div className=" flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaTwitter />
-                </div>
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
+              <div className=" flex items-center my-4 w-full sm:w-[80%]">
+                <Link href="https://www.linkedin.com/in/joshua-johnson-34081b235/" target="_blank">
+                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                </Link>
+                <Link href="https://github.com/Hoshhh" target="_blank">
+                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 ml-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

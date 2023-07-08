@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
@@ -20,21 +21,19 @@ const Main = () => {
             I'm a full-stack developer who enjoys making fun user experiences
             and building apps with engaging functionality! I've mostly been
             working on front-end development, but I have switch my focus towards
-            backend/full stack development
+            backend/full stack development.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaTwitter />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
+          <div className="flex items-center justify-center max-w-[330px] m-auto py-4">
+            <Link href="https://www.linkedin.com/in/joshua-johnson-34081b235/" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+            </Link>
+            <Link href="https://github.com/Hoshhh" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-400 p-4 ml-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

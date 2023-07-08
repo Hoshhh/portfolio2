@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -31,15 +32,14 @@ const About = () => {
             everyday!
           </p>
           <p className="py-2 text-slate-700">
-            I have a large assortment of interests such as cryptocurrency,
-            building computers, history, space, stocks, and video games. I try
-            my best to be a well informed person and I love learning about new
-            technology. Knowledge is a powerful thing and I hope one day all of
-            these steps I'm taking now will help me become an innovator for the
-            future.
+            I have a large assortment of interests such as building computers, 
+            history, space, stocks, and video games. I try my best to be a well 
+            informed person and I love learning about new technology. Knowledge 
+            is a powerful thing and I hope one day all of these steps I'm taking 
+            now will help me become an innovator for the future.
           </p>
           <p className="py-2 text-slate-700 underline cursor-pointer">
-            Check out my latest projects.
+            <Link href="/#projects">Check out my latest projects.</Link>
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

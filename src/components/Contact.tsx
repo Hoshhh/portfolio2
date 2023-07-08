@@ -13,91 +13,41 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
-            <div className="lg:p-4 h-full">
+        <div className="flex flex-row">
+          <div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+            <div className="flex flex-col items-center justify-center  md:flex-row lg:p-4 h-full">
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assets/digitalart2.jpg"
                   alt="/"
-                  width={350}
-                  height={350}
+                  width={300}
+                  height={250}
                 />
               </div>
-              <div>
+              <div className="md:ml-8">
                 <h2 className="py-2">Joshua Johnson</h2>
                 <p>Full-Stack Developer</p>
                 <p className="py-4">
                   I am available for freelance or full time positions. Feel free
                   to contact me.
                 </p>
-              </div>
-              <div>
-                <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-between max-w-[330px] py-4">
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaTwitter />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineMail />
+                <div className="flex flex-col items-center md:items-start">
+                  <p className="uppercase pt-8">Connect With Me</p>
+                  <div className="flex items-center max-w-[400px] py-4">
+                    <Link href="https://www.linkedin.com/in/joshua-johnson-34081b235/" target="_blank">
+                      <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                        <FaLinkedinIn />
+                      </div>
+                    </Link>
+                    <Link href="https://github.com/Hoshhh" target="_blank">
+                      <div className=" rounded-full shadow-lg shadow-gray-400 p-4 ml-2 cursor-pointer hover:scale-105 ease-in duration-300">
+                        <FaGithub />
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
-            <div className="p-4">
-              <form action="">
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
-                    <input
-                      className="border-2 rounded-lg p-3 flex"
-                      type="text"
-                    />
-                  </div>
-
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
-                      Phone Number
-                    </label>
-                    <input
-                      className="border-2 rounded-lg p-3 flex"
-                      type="text"
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Email</label>
-                  <input
-                    className="border-2 rounded-lg p-3 flex"
-                    type="email"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
-                  <input className="border-2 rounded-lg p-3 flex" type="text" />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
-                  <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
-                    rows={10}
-                  ></textarea>
-                </div>
-
-                <button className="w-full p-4 text-slate-100 mt-4">
-                  Send Message
-                </button>
-              </form>
             </div>
           </div>
         </div>
