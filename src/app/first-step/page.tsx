@@ -36,7 +36,7 @@ const page = () => {
             so they start applying to every developer job which in turn makes the recruiters job harder as well.
           </p>
           <p className="mt-4">
-            I used this project to test if what I wanted to achieve was within my capabilities. In the end I found that it was.
+            I used this project to test if what I wanted to achieve was within my capabilities. In the end, I felt I was up to the task.
             This project set me on the right path with these technologies, but was not planned or structured properly. My plan
             is to continue with this project, but I will be starting over and planning accordingly this time. I've learned
             so much from this project and I am now setting my focus on making this app in my spare time.

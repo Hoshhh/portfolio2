@@ -35,7 +35,7 @@ const page = () => {
             I'm making this project with scalability in mind in case the company
             decides to expand further. With the power of Typescript and a state
             management system like Redux, everything should be in place to make
-            this site expanable.
+            this site expandable.
           </p>
           <Link href="https://renegadehandmade.netlify.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
