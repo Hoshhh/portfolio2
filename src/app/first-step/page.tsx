@@ -40,6 +40,7 @@ const page = () => {
             This project set me on the right path with these technologies, but was not planned or structured properly. My plan
             is to continue with this project, but I will be starting over and planning accordingly this time. I've learned
             so much from this project and I am now setting my focus on making this app in my spare time.
+            <span className="font-bold"> Removed the database from this project and migrated it to the production version I'm working on.</span>
           </p>
           <Link href="https://first-step-tech.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
