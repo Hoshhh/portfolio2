@@ -42,11 +42,11 @@ const page = () => {
             so much from this project and I am now setting my focus on making this app in my spare time.
             <span className="font-bold"> Removed the database from this project and migrated it to the production version I'm working on.</span>
           </p>
-          <Link href="https://first-step-tech.vercel.app/" target="_blank">
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          <Link href="https://github.com/Hoshhh/FirstStepTech" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Production Code</button>
           </Link>
           <Link href="https://github.com/Hoshhh/FirstStep" target="_blank">
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4">Demo Code</button>
           </Link>
         </div>
         <div className="col-span-4 md:col-span-2 shadow-xl shadow-gray-400 rounded-xl p-2">
